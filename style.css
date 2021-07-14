@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* navigation styles */
+header{
+    background-color: rgb(7, 90, 7);
+    margin-bottom: 20px;
+}
+nav{
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+}
+#login{
+    margin-left: 950px;
+    background-color: rgb(241, 173, 46);
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.copa-america{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.copa-headline{
+    width: 70%;
+}
+.copa-headline h1{
+    color: white;
+    font-size: 50px;
+}
+.copa-photo{
+    width: 70%;
+}
+blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players-detail{
+    width: 330px;
+    height: 474px;
+    
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    width: 300px;
+    height: 154px;
+}
+.player-info a{
+    text-decoration: none;
+    color: black;
+}
+.highlights{
+    display: flex;
+}
+.highlight-text{
+    width: 50%;
+}
+.highlight-text a{
+    background-color: rgb(218, 166, 69);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+.logoIcon{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.logo img{
+    height: 110px;
+    width: 480px;
+}
+
+.highlight-image img{
+    width: 567px;
+    height: 460px;
+}
+@media only screen and (max-width:670px){
+    header{
+        width: 100%;
+        text-align: center;
+    }
+    .copa-america{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .players-detail{
+        flex-direction: column;
+    }
+    .highlights{
+        flex-direction: column;
+    }
+    .logoIcon .logo{
+        width: 20%;
+        justify-content: center;
+    }
+.logo img{
+    width: 225px;
+    height: 55px;
+    text-align: center;
+}
+    
+}
